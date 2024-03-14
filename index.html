@@ -1,0 +1,100 @@
+<!--https://codepen.io/danielfww/pen/LYvRZdv?editors=1000-->
+<!--how they tell you to start-->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Composition II in Red, Blue, and Yellow</title>
+  </head>
+  
+  <body>
+    <div class="container">
+<!--Main blocks-->
+
+      <div class="row"> <!--First Row-->
+      <div class="col"> <!--1st col-->
+      <div class="row"> <!--2nd Row-->
+      <div id="a" class="col">A block
+        <!-- Piece A -->
+     </div>
+     </div> <!--Closes 2nd Row-->
+
+     
+      <div class="row"> <!--3rd Row-->
+      <div id="b"  class="col">B block
+        <!-- Piece B -->
+      </div>
+  </div> <!--closes 1st col-->
+  </div> <!--Closes 3rd row-->
+
+  
+   <div id="c" class="col-9">C block
+        <!-- Piece C -->
+</div>
+  </div> <!--div closes first row-->
+    
+    
+  
+<!--Main blocks end here -->
+
+
+
+<!--Secondary blocks-->
+
+      <div class="row"> <!--1st row-->
+      <div id="d" class="col">D block
+        <!-- Piece D -->
+      </div>
+
+      <!--D Block is all set after 1st row-->
+
+<!--3rd Stage-->
+
+  
+      <div id="e" class="col-8">E block
+        <!-- Piece E -->
+      </div>
+
+<!--4th stage-->
+
+      
+      <div class="col-1"> <!--1st Column-->
+      <div class="row">
+      <div id="f" class="col-12">F
+        <!-- Piece F -->
+      </div> 
+      </div> <!--Closes F row-->
+      
+      
+      <div class="row">
+      <div id="g" class="col-12">G 
+        <!-- Piece G -->
+       </div>
+      </div> <!--closes G column-->
+      </div> <!--closes G row-->
+      </div> <!--Closes 1st Column in F Piece-->
+
+  </div> <!--closes 1st column-->
+
+    <!--Secondary blocks end here -->
+
+
+
+<!--Notes: The order of closing divs may not be as good as I thought, just tried to make sure that I keep </div> in order to not mess the blocks-->
+
+
+     
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
