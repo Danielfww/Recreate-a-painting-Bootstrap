@@ -1,6 +1,12 @@
 LEARN BOOTSTRAP
 
 https://codepen.io/danielfww/pen/LYvRZdv?editors=1000 --> All starting code
+Order wanted:
+
+![Labeled Composition II](https://github.com/Danielfww/Recreate-a-painting-Bootstrap/assets/158219974/dd05620c-e3c7-4fc1-a57f-04ce48d624fe)
+
+
+
 
 Recreate a painting using Bootstrap's grid
 In this project you will practice using the fundamentals of Bootstrap grid by piecing together a famous painting, namely Piet Mondrian’s Composition II in Red, Blue, and Yellow:
