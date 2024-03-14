@@ -1,8 +1,9 @@
 LEARN BOOTSTRAP
 
 https://codepen.io/danielfww/pen/LYvRZdv?editors=1000 --> All starting code
-Order wanted:
 
+
+Order wanted:
 ![Labeled Composition II](https://github.com/Danielfww/Recreate-a-painting-Bootstrap/assets/158219974/dd05620c-e3c7-4fc1-a57f-04ce48d624fe)
 
 
